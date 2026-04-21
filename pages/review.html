@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Reviews | Nike-Inspired</title>
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    .audio-review {
+      padding: 50px 5%;
+      background-color: #fff3e0;
+      text-align: center;
+      border-radius: 12px;
+      margin: 40px 5%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .audio-review h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #e53935;
+    }
+
+    .audio-review p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .audio-review audio {
+      width: 100%;
+      max-width: 500px;
+      outline: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .canvas-review {
+      padding: 50px 5%;
+      background-color: #eef7ff;
+      text-align: center;
+      border-radius: 12px;
+      margin: 40px 5%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .canvas-review h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+    .canvas-review p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    canvas {
+      border: 2px dashed #e53935;
+      border-radius: 8px;
+      background: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="../images/nike-logo-0.png" alt="Logo">
+    </div>
+
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">☰</label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html" class="active">Home</a></li>
+        <li><a href="../pages/men.html">Men</a></li>
+        <li><a href="../pages/women.html">Women</a></li>
+        <li><a href="../pages/kids.html">Kids</a></li>
+        <li><a href="../pages/collection.html">Collection</a></li>
+        <li><a href="../pages/review.html">Reviews</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        <li><a href="../pages/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <section class="review-section" style="margin-top: 3%;">
+    <h1>What Our Customers Say</h1>
+    <p class="review-subtitle">Real voices. Real experiences.</p>
+
+    <div class="review-grid">
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Comfort at its Best!</h3>
+        <p>"The Air Max I got from here is beyond comfortable. The fit, the design — everything screams quality!"</p>
+        <h4>- Arafat Rahman</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i>
+        </div>
+        <h3>Stylish and Durable</h3>
+        <p>"Loved the design of my new sneakers. Been using for 3 months — still looks brand new."</p>
+        <h4>- Nishat Tasnim</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Perfect for Gym</h3>
+        <p>"I wear them every day for workouts. Lightweight and the grip is excellent!"</p>
+        <h4>- Mahir Hossain</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Fast Delivery</h3>
+        <p>"Got my shoes within 3 days and packaging was awesome. Great service!"</p>
+        <h4>- Rifat Ahmed</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Good but Pricey</h3>
+        <p>"Loved the product, but I think price could be a bit lower. Still, worth it for quality."</p>
+        <h4>- Sania Karim</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Fast Delivery</h3>
+        <p>"Got my shoes within 3 days and packaging was awesome. Great service!"</p>
+        <h4>- Rifat Ahmed</h4>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Perfect for Gym</h3>
+        <p>"I wear them every day for workouts. Lightweight and the grip is excellent!"</p>
+        <h4>- Mahir Hossain</h4>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">
+          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        </div>
+        <h3>Perfect for Gym</h3>
+        <p>"I wear them every day for workouts. Lightweight and the grip is excellent!"</p>
+        <h4>- Mahir Hossain</h4>
+      </div>
+
+
+    </div>
+
+
+    <section class="audio-review">
+      <h2>Listen to Our Customer Voices</h2>
+      <p>Experience authentic feedback directly from our customers.</p>
+
+      <audio controls>
+        <source src="../audio/Shoes by 2GO - Theatrical Ad Film _ Commercial (online-audio-converter.com).mp3"
+          type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+
+
+    <section class="canvas-review">
+      <h2>Customer Satisfaction Chart</h2>
+      <p>Canvas placeholder for ratings visualization</p>
+      <canvas width="500" height="300">
+        Your browser does not support the canvas element.
+      </canvas>
+    </section>
+
+
+    <section class="svg-review">
+      <h2>Customer Satisfaction (SVG)</h2>
+      <p>Comfort, Style, Durability, Price, Service</p>
+
+      <svg class="chart" viewBox="0 0 560 260" role="img" aria-label="Customer satisfaction bar chart">
+
+        <line x1="40" y1="220" x2="520" y2="220" stroke="#999" stroke-width="1" />
+        <line x1="40" y1="40" x2="40" y2="220" stroke="#999" stroke-width="1" />
+
+        <rect x="70" y="76" width="50" height="144" fill="#e53935" rx="6" />
+        <rect x="150" y="92" width="50" height="128" fill="#ff6f61" rx="6" />
+        <rect x="230" y="108" width="50" height="112" fill="#ff8a65" rx="6" />
+        <rect x="310" y="124" width="50" height="96" fill="#ffb74d" rx="6" />
+        <rect x="390" y="60" width="50" height="160" fill="#d32f2f" rx="6" />
+
+
+        <text x="95" y="240" font-size="12" fill="#555" text-anchor="middle">Comfort</text>
+        <text x="175" y="240" font-size="12" fill="#555" text-anchor="middle">Style</text>
+        <text x="255" y="240" font-size="12" fill="#555" text-anchor="middle">Durability</text>
+        <text x="335" y="240" font-size="12" fill="#555" text-anchor="middle">Price</text>
+        <text x="415" y="240" font-size="12" fill="#555" text-anchor="middle">Service</text>
+
+
+        <text x="95" y="70" font-size="12" fill="#111" text-anchor="middle">9</text>
+        <text x="175" y="86" font-size="12" fill="#111" text-anchor="middle">8</text>
+        <text x="255" y="102" font-size="12" fill="#111" text-anchor="middle">7</text>
+        <text x="335" y="118" font-size="12" fill="#111" text-anchor="middle">6</text>
+        <text x="415" y="54" font-size="12" fill="#111" text-anchor="middle">10</text>
+      </svg>
+    </section>
+
+
+
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>Nike Inspired</h3>
+        <p>&copy; 2025 Nike-Inspired. All Rights Reserved.</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+        <div class="social-icons">
+          <i class="ri-facebook-line"></i>
+          <i class="ri-twitter-line"></i>
+          <i class="ri-instagram-line"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
